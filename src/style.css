@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato:ital@1&family=Montserrat:ital@1&family=Roboto+Condensed:ital@1&family=Roboto:ital@1&display=swap");
+
+body {
+  background-color: #2c3333;
+  color: white;
+}
+
+/* BasicInfo component styling */
+.BI-img {
+  width: 19em;
+  height: 15em;
+}
+
+.BI-h4 {
+  color: yellow;
+}
+.BI-h2,
+.BI-h4,
+.BI-h6 {
+  margin: 0.2em;
+}
+
+.BI-btn {
+  width: 10em;
+  height: 3.5em;
+  margin: 0 0.4em;
+  margin-top: 1.3em;
+}
+.BI-btn a {
+  text-decoration: none;
+}
+.btn-img-1 a {
+  color: black;
+}
+.btn-img-2 a {
+  color: white;
+}
+.btn-img-1 {
+  background-color: white;
+  border-radius: 0.4em;
+}
+.btn-img-2 {
+  background-color: #0077b5;
+  color: white;
+  border-radius: 0.4em;
+}
+.img {
+  position: relative;
+  top: 5px;
+  left: -3px;
+  width: 20px;
+  height: 20px;
+}
+
+/* AboutMe and MyInterest component styling */
+.AM-h4,
+.MI-h4 {
+  margin-bottom: 0;
+}
+.AM-p,
+.MI-p {
+  margin-top: 0;
+  font-size: small;
+}
+.AM-h4,
+.AM-p,
+.MI-h4,
+.MI-p {
+  text-align: start;
+  margin-left: 1em;
+}
+
+/* SocialLinks component styling */
+.socialLinks a {
+  margin: 0 1em 0 0;
+}
+.socialLinks a img {
+  margin: 1em 0 0 0;
+}
